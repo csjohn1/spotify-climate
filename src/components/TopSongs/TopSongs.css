@@ -1,0 +1,17 @@
+.artist-block {
+  display: flex;
+  overflow-y: hidden;
+  height: 400px;
+}
+
+.artist-block::-webkit-scrollbar {
+  display: none;
+}
+
+.playlist-head {
+  margin-left: 144px;
+  margin-top: 12px;
+  font-family: "TTNorms-Medium";
+  font-size: 26px;
+  font-weight: bold;
+}

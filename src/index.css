@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "TTNorms";
+  src: local("TTNorms"),
+    url(./assets/fonts/TTNorms-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "TTNorms-Medium";
+  src: local("TTNorms-Medium"),
+    url(./assets/fonts/TTNorms-Medium.otf) format("opentype");
+}
+
+* {
+  margin: 0;
+  font-family: "TTNorms";
+}
+
+body {
+  margin: 0;
+  font-family: "TTNorms";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9fafe;
+  /* overflow: hidden; */
+  zoom: 80%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

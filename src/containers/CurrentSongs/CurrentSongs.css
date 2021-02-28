@@ -1,0 +1,38 @@
+.current-songs-container {
+  margin-left: 100px;
+}
+
+.current-song-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.current-song-head {
+  margin-left: 144px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: "TTNorms-Medium";
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.current-playlist-number {
+  font-size: 16px;
+  color: #b8bac0;
+  margin-left: 144px;
+  margin-bottom: 12px;
+}
+
+.songrow-container {
+  margin-left: 122px;
+  height: 420px;
+  overflow: hidden;
+  overflow-y: overlay;
+}
+
+.fadeout {
+  position: relative;
+  bottom: 3em;
+  height: 3em;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0%, #f9fafe 100%);
+}

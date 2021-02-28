@@ -1,0 +1,41 @@
+.tile {
+  position: relative;
+  height: 250px;
+  width: auto;
+  margin: 39px 30px 27px 30px;
+  border-radius: 20px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+
+.tile.blur {
+  position: relative;
+  filter: blur(21px);
+  height: 258px;
+  z-index: -10;
+  top: -354px;
+}
+
+.tile.hover:hover {
+  transform: scale(1.15);
+}
+
+.tile-margin {
+  margin-left: 100px;
+}
+
+.tile-title {
+  margin-left: 50px;
+  font-family: "TTNorms-Medium";
+  font-size: 20px;
+  color: #474867;
+  font-weight: bold;
+}
+
+.tile-owner {
+  margin-left: 50px;
+  font-size: 18px;
+  padding-top: 6px;
+  color: #b8bac0;
+  font-weight: bold;
+}

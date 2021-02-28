@@ -1,0 +1,71 @@
+.song-row {
+  background: white;
+  width: 900px;
+  padding: 2px 40px 25px 40px;
+  margin: 15px 60px;
+  box-shadow: 3px 3px 15px 0px #bfbfbf40;
+  border-radius: 10px;
+  transition: transform 350ms;
+  cursor: pointer;
+}
+
+.song-row:hover {
+  transform: scale(1.08);
+}
+
+.song-row-index {
+  display: inline-block;
+  width: 20px;
+  margin-right: 30px;
+  color: #b8bac0;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.song-row-img {
+  width: 45px;
+  border-radius: 6px;
+  top: 15px;
+  position: relative;
+  margin-right: 40px;
+}
+
+.song-row-name {
+  vertical-align: middle;
+  line-height: normal;
+  font-family: "TTNorms-Medium";
+  font-size: 18px;
+  color: #474867;
+  font-weight: bold;
+  width: 280px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  margin-right: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.song-row-album {
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+  text-overflow: ellipsis;
+  width: 300px;
+  margin-right: 30px;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #9e9da1;
+}
+
+.song-row-duration {
+  vertical-align: middle;
+  line-height: normal;
+  color: #9e9da1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

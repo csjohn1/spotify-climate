@@ -1,0 +1,54 @@
+.current-container {
+  margin-top: 90px;
+  background: white;
+  width: calc(100% - 1407px);
+  margin-left: 40px;
+  box-shadow: 3px 3px 15px 0px #bfbfbf40;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.song-image {
+  width: 210px;
+  border-radius: 21px;
+  margin-top: 24px;
+  box-shadow: 3px 3px 15px 3px #9090909e;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.current-name {
+  font-family: "TTNorms-Medium";
+  font-size: 20px;
+  color: #474867;
+  font-weight: bold;
+  height: 0px;
+  margin-top: 18px;
+}
+
+.current-album {
+  font-family: "TTNorms-Medium";
+  font-size: 16px;
+  color: #b8bac0;
+  margin-top: 30px;
+}
+
+.pause-play-icon {
+  margin: 15px 0px 30px 0px;
+  position: relative;
+  bottom: 0px;
+  transition: transform 400ms;
+  color: #474867;
+  cursor: pointer;
+}
+
+.pause-play-icon:hover {
+  transform: scale(1.3);
+  color: #474867e0;
+}
